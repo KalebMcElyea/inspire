@@ -14,7 +14,7 @@ export default class Weather{
         <footer class="" id="weather">
         <div class="row text-center">
             <div class="text-center">
-                <p class="pl-3 text-light">${this.area} ${this.temperature}</p>
+                <p class="pl-3 text-dark">${this.area} ${this.temperature}</p>
             </div>
         </div>
     </footer>
