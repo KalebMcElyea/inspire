@@ -3,6 +3,7 @@ import {TodoService} from "../Services/TodosService.js"
 
 
  function _draw() {
+   
    let todo = ProxyState.todo
    let template = ''
    todo.forEach(t => template += t.Template)

@@ -6,6 +6,8 @@ import { imageService } from "../Services/ImageService.js";
 function _drawImage() {
   // @ts-ignore
   document.body.style.backgroundImage = `url(${ProxyState.image.url})`
+  document.body.style.backgroundSize = 'cover'
+  document.body.style.backgroundPosition = 'center'
 }
 
 
